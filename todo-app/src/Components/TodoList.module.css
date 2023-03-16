@@ -1,0 +1,42 @@
+.newTodo {
+    background-color: #438977;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 5px 8px rgba(10, 10, 10, 0.25);
+  }
+
+.btn{
+    text-align: center;
+}
+
+.newTodo button{
+    font-size: 25px;
+    font-style: bold;
+    cursor: pointer;
+    width: 250px;
+    background-color: transparent;
+    border: 3px solid rgb(42, 40, 40);
+    box-shadow: 1px 1px 5px rgb(33, 45, 45);
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.newTodo button:hover {
+    background-color: #1e3832;
+    border-color: #438977;
+    color: white;
+}
+
+
+@media screen and (max-width: 900px) {
+    .newTodo {
+        max-width: 75%;
+        }
+}
