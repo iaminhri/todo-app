@@ -1,0 +1,30 @@
+.todo-date{
+    display: flex;
+    flex-direction: column;
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid #28c7b5a7;
+    border-radius: 12px;
+    background-color: #2a2a2a;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.day{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.month{
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.year{
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+}
